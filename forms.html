@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+	<meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Junte-se à bikenete</title>
+
+</head>
+<body id="body">
+	<header id="header">
+
+
+        <a href="#"> <img id="logo" src="imgs/testeLogo.svg" alt="Logo"></a>
+
+
+    </header>
+	<div class="container">
+		<form action="index.html">
+			<p>JUNTE-SE A EQUIPE</p>
+		  <label for="fnome">Nome Completo</label>
+		  <input type="text" id="fnome" name="nomeComp" placeholder="Nome completo.." required>
+	  
+		  <label for="txtende">Endereço</label>
+		  <input type="text" id="txtende" name="endereco" placeholder="Endereço" required>
+		  <label for="txtcep">CEP</label>
+		  <input type="number" id="txtcep" name="cep" placeholder="CEP" required>
+		  <label for="txtcida">Cidade:&nbsp;&nbsp;</label>
+		  <input name="txtcida" type="text" placeholder="Preencha o nome da cidade" value="São Paulo" required />
+		
+	  
+		  <label for="txtUF">UF</label>
+		  <select id="txtUF" name="txtUF">
+			<option>AC</option>
+			<option>AM</option>
+			<option>AL</option>
+			<option>AP</option>
+			<option>BA</option>
+			<option>CE</option>
+			<option>DF</option>
+			<option>ES</option>
+			<option>GO</option>
+			<option>MA</option>
+			<option>MG</option>
+			<option>MT</option>
+			<option>MS</option>
+			<option>PA</option>
+			<option>PB</option>
+			<option>PE</option>
+			<option>PI</option>
+			<option>PR</option>
+			<option>RJ</option>
+			<option>RN</option>
+			<option>RO</option>
+			<option>RR</option>
+			<option>RS</option>
+			<option>SC</option>
+			<option>SE</option>
+			<option selected>SP</option>
+			<option>TO</option>
+		  </select>
+
+		  <label for="txtsexo">Sexo:&nbsp;&nbsp;</label>
+			<input name="txtsexo" type="radio" value="F" checked />Feminino&nbsp;&nbsp;
+			<input name="txtsexo" type="radio" value="M" />Masculino<br/><br/>
+	  
+		  <label for="txtComent">Deixe um Comentário</label>
+		  <textarea id="txtComent" name="txtComent" placeholder="" style="height:50px"></textarea>
+	  
+		  <input type="submit" value="Enviar">
+		  <input type="reset" value="Limpar">
+		  <input type="submit" value="Voltar">
+	  
+		</form>
+	  </div>
+</body>
+</html>
